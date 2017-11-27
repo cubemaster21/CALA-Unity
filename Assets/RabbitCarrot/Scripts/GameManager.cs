@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour {
             answer.transform.SetParent(canvas.transform);
             RectTransform bounds = answer.GetComponent<RectTransform>();
             answer.transform.position = new Vector2(Screen.width -bounds.rect.width / 2,Screen.height -(i * size + size / 2));
+            answer.transform.localScale = new Vector3(1, 1, 1);
             answer.GetComponent<TEXDraw>().text = currentQuestion.answers[i];
             answer.GetComponent<Draggable>().manager = this;
             answersSpawned[i] = answer;
