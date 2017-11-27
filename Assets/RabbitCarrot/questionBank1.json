@@ -1,0 +1,104 @@
+{
+	"list": [
+		{
+			"question": "y=\\sin(3x^{2}-2x\\)",
+			"answers": [
+				"\\cos(6x-2\\)",
+				"\\cos(3x^{2}-2x\\)\\cdot(6x-2\\)",
+				"\\sin(6x-2\\)",
+				"\\cos(3x^{2}-2x\\)"
+			],
+			"solutionArray": 1
+		},
+		{
+			"question": "y=\\ln(5x+x^{3}\\)",
+			"answers": [
+				"\\ln(5+3x^{2}\\)",
+				"\\ln(5x+x^{3}\\)\\cdot(5+3x^{2}\\)",
+				"\\frac{(5+3x^{2}\\)}{(5x+x^{3}\\)}",
+				"\\frac{\\ln(5x+x^{3}\\)}{(5+3x^{2}\\)}"
+			],
+			"solutionArray": 2
+		},
+		{
+			"question": "y=\\tan(4x^{2}+7\\)",
+			"answers": [
+				"\\sec^{2}(4x^{2}+7\\)",
+				"\\sec^{2}(8x\\)",
+				"\\sec^{2}(4x^{2}+7\\)\\cdot8x",
+				"\\tan(8x\\)\\cdot\\sec^{2}(8x\\)"
+			],
+			"solutionArray": 2
+		},
+		{
+			"question": "y = e^{2}\\sin(2x\\)",
+			"answers": [
+				"2e^{2}\\cos(2x\\) - 2e\\sin(2x\\)",
+				"2e^{2}\\sin(2x\\) - 2e\\sin(2x\\)",
+				"2e^{2}\\sin(2x\\)",
+				"2e^{2}\\cos(2x\\)"
+			],
+			"solutionArray": 3
+		},
+		{
+			"question": "y = \\cos(\\ln2x\\)",
+			"answers": [
+				"-\\sin(\\ln2x\\)\\cdot \\frac{1}{2x}",
+				"-\\sin(\\ln2x\\) + \\cos(\\frac{1}{2x}\\)",
+				"-\\sin(\\ln2x\\)\\cdot\\frac{1}{2x}",
+				"-\\sin(\\ln2x\\)\\cdot\\frac{1}{x}"
+			],
+			"solutionArray": 3
+		},
+		{
+			"question": "y=\\sqrt[5]{\\tan5x}",
+			"answers": [
+				"\\frac{1}{5}\\cdot\\sec(5x\\)\\cdot\\tan(5x\\)",
+				"\\frac{1}{5}[\\sec(5x\\)\\cdot\\tan(5x\\)\\]^{-\\frac{4}{5}}",
+				"\\frac{1}{5}[5\\sec(5x\\)\\cdot5\\tan(5x\\)\\]^{-\\frac{4}{5}}",
+				"5[\\tan(5x\\)\\]^{-\\frac{4}{5}}\\cdot\\sec5x\\cdot\\tan5x"
+			],
+			"solutionArray": 2
+		},
+		{
+			"question": "y=(1+\\sin2x\\)^{3}",
+			"answers": [
+				"2\\cos2x",
+				"3(2\\cos2x\\)^{2}",
+				"3(1+2\\cos2x\\)^{2}",
+				"6(1+\\sin2x\\)^{2}\\cdot\\cos2x"
+			],
+			"solutionArray": 3
+		},
+		{
+			"question": "y=(3-\\frac{1}{x}-\\frac{1}{x^{2}}\\)^{4}",
+			"answers": [
+				"4(3-\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\)^{3}",
+				"4(\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\)^{3}",
+				"4(3-\\frac{1}{x}-\\frac{1}{x^{2}}\\)^{3}(3-\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\)",
+				"4(3-\\frac{1}{x}-\\frac{1}{x^{2}}\\)^{3}(\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\)"
+			],
+			"solutionArray": 3
+		},
+		{
+			"question": "y=\\sqrt[3]{\\sin2x}",
+			"answers": [
+				"\\sqrt[3]{2\\cos2x}",
+				"\\frac{1}{3}(\\sin2x\\)\\cdot2(\\cos2x\\)",
+				"\\frac{1}{3}(2\\cdot\\cos2x\\)",
+				"\\frac{1}{3}(2\\cdot\\sin2x\\)"
+			],
+			"solutionArray": 1
+		},
+		{
+			"question": "y=\\sec^{2}(x^{2}\\)",
+			"answers": [
+				"\\sec^{2}(x^{2}\\)\\cdot2x",
+				"\\sec^{2}(2x\\)",
+				"2\\sec(2x\\)\\tan(2x\\)",
+				"\\sec^{2}(x^{2}\\)\\tan(x^{2}\\)\\cdot4x"
+			],
+			"solutionArray": 3
+		}
+	]
+}

@@ -1,0 +1,115 @@
+{
+	"list": [
+		{
+			"question": "y=\\sqrt{\\sin(3x)}",
+			"answers": [
+				"3x",
+				"\\sin(\\ )",
+				"\\cos(\\ )",
+				"6x^{2}",
+				"\\sqrt{\\ \\ \\ \\ \\ \\ \\ }"
+			],
+			"solutionArray": "0,1,4"
+		},
+		{
+			"question": "y=\\ln(\\tan(x^{2}))",
+			"answers": [
+				"2x",
+				"x^{2}",
+				"\\tan(\\ )",
+				"\\ln(\\ )",
+				"e^{x}"
+			],
+			"solutionArray": "1,2,3"
+		},
+		{
+			"question": "y=e^{\\cos(4x)}",
+			"answers": [
+				"4\\sin(x)",
+				"4",
+				"4x",
+				"\\cos(\\ )",
+				"e"
+			],
+			"solutionArray": "2,3,4"
+		},
+		{
+			"question": "y=\\sin(\\ln(\\cos(6x)))",
+			"answers": [
+				"6x",
+				"\\ln(\\ )",
+				"\\cos(\\ )",
+				"6",
+				"\\sin(\\ )"
+			],
+			"solutionArray": "0,2,1,4"
+		},
+		{
+			"question": "y=e^{\\frac{1}{2x}}",
+			"answers": [
+				"2x",
+				"(\\ )^{-1}",
+				"e",
+				"2",
+				"\\frac{1}{2x}"
+			],
+			"solutionArray": "0,1,2"
+		},
+		{
+			"question": "y=(\\sin(e^{\\cos(x)}))^{-1}",
+			"answers": [
+				"\\sin(\\ )",
+				"e^{(\\ )}",
+				"\\cos(\\ )",
+				"x",
+				"(\\ )^{-1}"
+			],
+			"solutionArray": "3,2,1,0,4"
+		},
+		{
+			"question": "y=\\tan^{3}\\sqrt{\\cot(7x)}",
+			"answers": [
+				"7x",
+				"\\tan(\\ )",
+				"\\cot(\\ )",
+				"\\sqrt{\\ \\ \\ \\ \\ \\ \\ }",
+				"7",
+				"(\\ )^{3}"
+			],
+			"solutionArray": "0,2,3,1,5"
+		},
+		{
+			"question": "y=(4x+x^{-5})^{\\frac{1}{3}}",
+			"answers": [
+				"4-5x^{-6}",
+				"4x+x^{-5}",
+				"4x",
+				"x^{-5}",
+				"(\\ )^{\\frac{1}{3}}"
+			],
+			"solutionArray": "1,4"
+		},
+		{
+			"question": "y=\\cos^{2}(x^{3})",
+			"answers": [
+				"3x",
+				"x^{3}",
+				"(\\ )^{2}",
+				"\\cos(\\ )",
+				"\\sin(\\ )"
+			],
+			"solutionArray": "1,3,2"
+		},
+		{
+			"question": "y=\\ln(4+\\cos(x))",
+			"answers": [
+				"-\\sin(x)",
+				"\\ln(\\ )",
+				"4+\\cos(x)",
+				"4",
+				"\\cos(x)"
+			],
+			"solutionArray": "2,1"
+		}
+	]
+}

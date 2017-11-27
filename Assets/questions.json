@@ -1,0 +1,59 @@
+[
+    {
+        "question":"\\frac{d}{dx}\\cos\\left(x^{2}\\right) =\\sin\\left(2x\\right)",
+        "answer1":"\\sin\\left(x^{2}\\right)\\cdot 2x",
+        "answer2":"-\\sin\\left(x^{2}\\right)",
+        "answer3":"-\\sin x\\left(2x\\right)",
+        "answer4":"\\sin\\cdot x^{2}+\\cos\\cdot\\left(2x\\right)",
+        "answer5":"-\\sin\\left(x^{2}\\right)\\cdot 2x",
+        "correctAnswer":"answer5"
+    },
+    {
+        "question":"y = e^{2}\\sin\\left(2x\\right)",
+        "answer1":"2e^{2}\\cos\\left(2x\\right) - 2e\\sin\\left(2x\\right)",
+        "answer2":"2e^{2}\\sin\\left(2x\\right) - 2e\\sin\\left(2x\\right)",
+        "answer3":"2e^{2}\\sin\\left(2x\\right)",
+        "answer4":"2e^{2}\\cos\\left(2x\\right)",
+        "correctAnswer":"answer4"
+    },
+    {
+        "question":"y = \\cos\\left(\\ln2x\\right)",
+        "answer1":"-\\sin\\left(\\ln2x\\right)\\cdot \\frac{1}{2x}",
+        "answer2":"-\\sin\\left(\\ln2x\\right) + \\cos\\left(\\frac{1}{2x}\\right)",
+        "answer3":"-\\sin\\left(\\ln2x\\right)\\cdot\\frac{1}{2x}",
+        "answer4":"-\\sin\\left(\\ln2x\\right)\\cdot\\frac{1}{x}",
+        "correctAnswer":"answer4"
+    },
+    {
+        "question":"y = x^{3}-x^{-1}+\\frac{1}{\\sqrt{x}}",
+        "answer1":"3x^{2}-\\frac{1}{x^{2}}+\\frac{1}{2}x^{-\\frac{1}{2}}",
+        "answer2":"3x^{2}+\\frac{1}{x^{2}}-\\frac{1}{2}x^{-\\frac{1}{2}}",
+        "answer3":"3x^{2}-\\ln x+\\frac{1}{2}x^{\\frac{1}{2}}",
+        "answer4":"3x^{2}-\\ln x-\\frac{1}{2}x^{-\\frac{1}{2}}",
+        "correctAnswer":"answer2"
+    },
+    {
+        "question":"y=\\sqrt[5]{\\tan5x}",
+        "answer1":"\\frac{1}{5}\\cdot\\sec\\left(5x\\right)\\cdot\\tan\\left(5x\\right)",
+        "answer2":"\\frac{1}{5}\\left[\\sec\\left(5x\\right)\\cdot\\tan\\left(5x\\right)\\right]^{-\\frac{4}{5}}",
+        "answer3":"\\frac{1}{5}\\left[5\\sec\\left(5x\\right)\\cdot5\\tan\\left(5x\\right)\\right]^{-\\frac{4}{5}}",
+        "answer4":"5\\left[\\tan\\left(5x\\right)\\right]^{-\\frac{4}{5}}\\cdot\\sec5x\\cdot\\tan5x",
+        "correctAnswer":"answer3"
+    },
+    {
+        "question":"y=\\left(1+\\sin2x\\right)^{3}",
+        "answer1":"2\\cos2x",
+        "answer2":"3\\left(2\\cos2x\\right)^{2}",
+        "answer3":"3\\left(1+2\\cos2x\\right)^{2}",
+        "answer4":"6\\left(1+\\sin2x\\right)^{2}\\cdot\\cos2x",
+        "correctAnswer":"answer4"
+    },
+    {
+        "question":"y=\\left(3-\\frac{1}{x}-\\frac{1}{x^{2}}\\right)^{4}",
+        "answer1":"4\\left(3-\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\right)^{3}",
+        "answer2":"4\\left(\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\right)^{3}",
+        "answer3":"4\\left(3-\\frac{1}{x}-\\frac{1}{x^{2}}\\right)^{3}\\left(3-\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\right)",
+        "answer4":"4\\left(3-\\frac{1}{x}-\\frac{1}{x^{2}}\\right)^{3}\\left(\\frac{1}{x^{2}}+\\frac{2}{x^{3}}\\right)",
+        "correctAnswer":"answer4"
+    }
+]

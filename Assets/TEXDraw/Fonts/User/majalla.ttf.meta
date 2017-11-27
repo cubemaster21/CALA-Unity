@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2161e17b135ccd048b28ce88f002aef9
+timeCreated: 1495608141
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  fallbackFontReferences: []
+  customCharacters: "\u064B\u064C\u064D\u064E\u064F\u0650\u0651\u0652"
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

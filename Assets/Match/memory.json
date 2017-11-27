@@ -1,0 +1,44 @@
+[
+ {
+ "question":"\\left(c\\right)'",
+ "derivative":"0"
+ },
+ {
+ "question":"\\left(x^{n}\\right)'",
+ "derivative":"nx^{n-1}"
+ },
+ {
+ "question":"\\left(e^{x}\\right)'",
+ "derivative":"e^{x}"
+ },
+ {
+ "question":"\\left(\\ln x\\right)'",
+ "derivative":"\\frac{1}{x}"
+ },
+ {
+ "question":"\\left(\\sin x\\right)'",
+ "derivative":"\\cos x"
+ },
+ {
+ "question":"\\left(\\cos x\\right)'",
+ "derivative":"-\\sin x"
+ },
+ {
+ "question":"\\left(\\tan x\\right)'",
+ "derivative":"\\sec^{2}x"
+ },
+ {
+ "question":"\\left(\\cot x\\right)'",
+ "derivative":"- \\csc^{2}x"
+ },
+ {
+ "question":"\\left(\\sec x\\right)'",
+ "derivative":"\\sec x \\tan x"
+ },
+ {
+ "question":"\\left(\\csc x\\right)'",
+ "derivative":"- \\csc x \\ cot x"
+ }
+ 
+ 
+ ]
