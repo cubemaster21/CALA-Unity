@@ -54,7 +54,7 @@ public class RabbitLogic : MonoBehaviour {
                 pickTarget();
                 if(target == null)
                 {
-
+                    //game over man
                 }
             }
         }

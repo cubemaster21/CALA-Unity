@@ -73,7 +73,9 @@ public class GameManager : MonoBehaviour {
         if (rabbits == null) return;
         for(int i = 0;i < rabbits.Length; i++)
         {
-            Instantiate(poofPrefab, rabbits[i].transform.position, Quaternion.identity);
+            Vector3 position = rabbits[i].transform.position;
+            position.z = -1;
+            Instantiate(poofPrefab, position, Quaternion.identity);
             Destroy(rabbits[i]);
             
             rabbits[i] = null;
@@ -94,10 +96,13 @@ public class GameManager : MonoBehaviour {
     }
     public bool isInRabbit(Vector2 position)
     {
+        Debug.Log(position);
         for(int i = 0;i < rabbits.Length; i++)
         {
+            
             BoxCollider2D r = rabbits[i].GetComponent<BoxCollider2D>();
-            if (r.bounds.Contains(position))
+            Vector3 vpos = new Vector3(position.x, position.y, r.bounds.center.z);
+            if (r.bounds.Contains(vpos))
             {
                 return true;
             }
