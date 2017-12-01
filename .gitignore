@@ -32,3 +32,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/TEXDraw/GuideAndExtras/TEXDraw-NGUI Extensions.unitypackage.meta
+Assets/TEXDraw/GuideAndExtras/TEXDraw-TMP Shader Extensions.unitypackage.meta

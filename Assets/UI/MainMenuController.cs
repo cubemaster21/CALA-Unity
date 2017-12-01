@@ -20,8 +20,8 @@ public class MainMenuController : MonoBehaviour {
     }
     public void commonMistakesButtonPressed()
     {
-        Debug.Log("clicked");
-        SceneManager.LoadScene("UI/CommonMistakeSelector", LoadSceneMode.Single);
+        Debug.Log("clicked"); 
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 
 }
